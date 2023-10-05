@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <unistd.h> // Include this for STDOUT_FILENO
+#include <unistd.h>
 
 /**
  * main - Entry point
