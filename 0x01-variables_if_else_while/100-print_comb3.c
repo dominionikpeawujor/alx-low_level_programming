@@ -3,38 +3,26 @@
 /**
  * main - Entry point
  *
- * Description: Prints all possible combinations of single-digit numbers,
- * separated by a comma and space, in ascending order.
+ * Description: Prints all possible different combinations of two digits
+ * separated by a comma and a space. The two digits must be different.
+ * Numbers are printed in ascending order.
  *
  * Return: Always 0 (Success)
  */
-int main(void)
-{
-	int num1, num2;
+int main(void) {
+	int digit1, digit2;
 
-	for (num1 = 0; num1 < 10; num1++)
+	for (digit1 = 0; digit1 < 9; digit1++)
 	{
-		for (num2 = 1; num2 < 10; num2++)
+		for (digit2 = digit1 + 1; digit2 <= 9; digit2++)
 		{
-			if (num1 >= 9)
+			putchar('0' + digit1);
+			putchar('0' + digit2);
+			if (digit1 != 8 || digit2 != 9)
 			{
-				continue;
+				putchar(',');
+				putchar(' ');
 			}
-			if (num1 > 1)
-			{
-				if (num2 > num1)
-				{
-					continue;
-				}
-				else if (num1 == num2)
-				{
-					continue;
-				}
-			}
-			putchar('0' + num1);
-			putchar('0' + num2);
-			putchar(',');
-			putchar(' ');
 		}
 	}
 	putchar('\n');
