@@ -1,6 +1,13 @@
 #include <stdio.h>
 
-int main(void) /*A function that prints out alphabets in lowercase*/
+/**
+ * main - Entry point
+ *
+ * Description: A program that prints lowercase alphabets followed by a newline
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
 	char letter;
 
@@ -12,4 +19,3 @@ int main(void) /*A function that prints out alphabets in lowercase*/
 
 	return (0);
 }
-
