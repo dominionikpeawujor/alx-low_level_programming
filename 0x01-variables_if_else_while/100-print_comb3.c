@@ -34,7 +34,7 @@ int main(void)
 			putchar('0' + num1);
 			putchar('0' + num2);
 			putchar(',');
-			putchar(' ')
+			putchar(' ');
 		}
 	}
 	putchar('\n');
