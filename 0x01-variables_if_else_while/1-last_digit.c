@@ -3,7 +3,7 @@
 #include <time.h>
 /* more headers goes there */
 
-/* This is the main function that generates a random number and checks if it's positive or negative. */
+/*generates a random number and checks if it's positive or negative*/
 int main(void)
 {
 	int n, lastDigit;
