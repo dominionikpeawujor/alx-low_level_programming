@@ -1,7 +1,18 @@
 #include <stdio.h>
+
+/**
+ * main - Entry point
+ *
+ * Description: Prints all possible different combinations of three digits
+ * separated by a comma and a space. The three digits must be different.
+ * Numbers are printed in ascending order.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int digit1, digit2, digit3;
+	
 	for (digit1 = 0; digit1 <= 7; digit1++)
 	{
 		for (digit2 = digit1 + 1; digit2 <= 8; digit2++)
@@ -20,5 +31,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
