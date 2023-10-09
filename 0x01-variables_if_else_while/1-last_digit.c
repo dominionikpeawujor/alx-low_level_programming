@@ -1,16 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 
-/*generates a random number and checks if it's positive or negative*/
+/**
+ * main - Entry point. Generates a random number and checks if its last digit
+ *        is positive, greater than 5, equal to 0, or less than 6 and not 0.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n, lastDigit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
+
 	lastDigit = n % 10;
 	if (lastDigit > 5)
 	{
@@ -24,5 +28,6 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastDigit);
 	}
+
 	return (0);
 }
