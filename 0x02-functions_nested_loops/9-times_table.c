@@ -1,38 +1,33 @@
 #include <stdio.h>
-#include "main.h"
-
-#include <stdio.h>
 
 /**
- * times_table - Print the multiplication table for 0 through 9.
+ * main - Entry point of the program
  *
- * Description: This function calculates and prints the products of numbers from
- * 0 to 9, forming a multiplication table. It ensures proper formatting to align
- * the results in a tabular form.
+ * Description: This program generates and prints a multiplication table
+ * from 0 to 9 in the specified format. It uses tabs to format the output.
  *
- * Return: None (void)
+ * Return: 0 (Success)
  */
-void times_table(void)
+int main(void)
 {
     int row, column, result;
 
-    for (row = 0; row <= 9; row++) {
-        for (column = 0; column <= 9; column++) {
+    for (row = 0; row <= 9; row++)
+    {
+        for (column = 0; column <= 9; column++)
+        {
             result = row * column;
 
-            if (column > 0) {
-                _putchar(',');
-            }
+            if (column > 0)
+                putchar(',');
+            putchar('\t');
 
-            if (result < 10) {
-                _putchar(' ');
-                _putchar(result + '0');
-            } else {
-                _putchar(' ');
-                _putchar(result / 10 + '0');
-                _putchar(result % 10 + '0');
-            }
+            if (result < 10)
+                putchar(' ');
+            printf("%d", result);
         }
-        _putchar('\n');
+        putchar('\n');
     }
+
+    return (0);
 }
