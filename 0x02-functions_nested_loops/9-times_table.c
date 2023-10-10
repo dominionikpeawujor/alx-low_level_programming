@@ -8,7 +8,7 @@
  *
  * Return: 0 (Success)
  */
-int main(void)
+void times_table(void)
 {
     int row, column, result;
 
@@ -28,6 +28,4 @@ int main(void)
         }
         _putchar('\n');
     }
-
-    return (0);
 }
