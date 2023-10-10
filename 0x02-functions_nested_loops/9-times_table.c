@@ -19,12 +19,12 @@ int main(void)
             result = row * column;
 
             if (column > 0)
-                putchar(',');
-            putchar('\t');
+                _putchar(',');
+            _putchar('\t');
 
             if (result < 10)
-                putchar(' ');
-            printf("%d", result);
+                _putchar(' ');
+            _putchar('0' + result);
         }
         putchar('\n');
     }
