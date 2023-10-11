@@ -2,17 +2,15 @@
 #include "main.h"
 
 /**
- * print_last_digit - Print the last digit of an integer
+ * add - Add two integers
  *
- * Description: This function takes an integer (n)
- * as input and computes and
- * returns the last digit of that integer.
- * The last digit is the remainder of
- * the integer when divided by 10.
+ * Description: This function takes two integer values 'a' and 'b' as input,
+ * adds them together, and returns the result of the addition.
  *
- * @n: The integer from which the last digit is extracted
+ * @a: The first integer to be added
+ * @b: The second integer to be added
  *
- * Return: The last digit of the input integer (an integer between 0 and 9)
+ * Return: The result of adding 'a' and 'b'
  */
 int add(int a, int b)
 {
