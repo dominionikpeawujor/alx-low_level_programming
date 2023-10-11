@@ -23,7 +23,8 @@ void print_times_table(int n)
 		return;		
 	}
 
-	int row, column;
+	int row;
+	int column;
 	int result;
 	int temp;
 	int digit;
