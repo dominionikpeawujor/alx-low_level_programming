@@ -4,7 +4,7 @@
 /**
  * main - Entry point of the program
  *
- * Description: This program calculates 
+ * Description: This program calculates
  * and prints the sum of all the multiples
  * of 3 or 5 below 1024. It uses a loop to
  * iterate through the numbers from 1 to
@@ -28,5 +28,5 @@ int main(void)
 		}
 	}
 	printf("%d\n", sum);
-	return 0;
+	return (0);
 }
