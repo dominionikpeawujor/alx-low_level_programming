@@ -23,7 +23,10 @@ void print_times_table(int n)
 		return;		
 	}
 
-	int row, column, result;
+	int row, column;
+	int result;
+	int temp;
+	int digit;
 	
 	for (row = 0; row <= n; row++)
 	{
@@ -52,9 +55,9 @@ void print_times_table(int n)
 					_putchar(' ');
 				}
 				
-				int temp = result;
-				int digit;
 				
+				
+				temp = result;		
 				while (temp > 0)
 				{
 					digit = temp % 10;
