@@ -4,10 +4,13 @@
 #include <stdio.h>
 
 /**
- * times_table - Print the multiplication table for 0 through 9.
+ * times_table - Print the multiplication
+ * table for 0 through 9.
  *
- * Description: This function calculates and prints the products of numbers from
- * 0 to 9, forming a multiplication table. It ensures proper formatting to align
+ * Description: This function calculates
+ * and prints the products of numbers from
+ * 0 to 9, forming a multiplication table. 
+ * It ensures proper formatting to align
  * the results in a tabular form.
  *
  * Return: None (void)
@@ -21,7 +24,8 @@ void times_table(void)
                 for (column = 0; column <= 9; column++)
                 {
                         result = row * column;
-                        if (column > 0) {
+                        if (column > 0)
+                        {
                                 _putchar(',');
                                 _putchar(' ');
                         }
