@@ -13,7 +13,7 @@
 void jack_bauer(void)
 {
 	int hours, mins;
-	
+
 	for (hours = 0; hours < 24; hours++)
 	{
 		for (mins = 0; mins < 60; mins++)
@@ -22,7 +22,6 @@ void jack_bauer(void)
 			char hours_ones = '0' + (hours % 10);
 			char mins_tens = (mins < 10) ? '0' : '0' + (mins / 10);
 			char mins_ones = '0' + (mins % 10);
-			
 			putchar(hours_tens);
 			putchar(hours_ones);
 			putchar(':');
