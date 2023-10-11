@@ -3,10 +3,13 @@
 /**
  * main - Entry point of the program
  *
- * Description: This program calculates and prints the sum of even-valued terms in
- * the Fibonacci sequence up to 4,000,000. It starts with 1 and 2 and continues by
- * adding the previous two numbers to generate the next one. The program stops when
- * a Fibonacci term exceeds 4,000,000 and calculates the sum of even terms.
+ * Description: This program calculates and prints the
+ * sum of even-valued terms in
+ * the Fibonacci sequence up to 4,000,000. It starts with 1 and 2
+ * and continues by adding the previous two numbers to
+ * generate the next one. The program stops when
+ * a Fibonacci term exceeds 4,000,000 and calculates
+ * the sum of even terms.
  *
  * Return: 0 (Success)
  */
