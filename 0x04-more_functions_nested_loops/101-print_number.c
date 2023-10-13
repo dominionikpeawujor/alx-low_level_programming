@@ -1,0 +1,7 @@
+#include <stdio.h>
+#include "main.h"
+
+void print_number(int n)
+{
+	_putchar(n + '0');
+}
