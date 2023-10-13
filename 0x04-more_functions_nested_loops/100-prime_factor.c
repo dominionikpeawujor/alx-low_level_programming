@@ -15,9 +15,10 @@ int main()
 	{
 		while (number % i == 0)
 		{
-			number %= i;
+			number /= i;
 		}
 	}
 	printf("%ld", number);
+	printf("\n");
 	return (0);
 }
