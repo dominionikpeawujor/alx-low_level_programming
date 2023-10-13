@@ -5,12 +5,12 @@
  *
  * Return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
 	int i;
 	long int number;
-	number = 612852475143;
 
+	number = 612852475143;
 	for (i = 2; i < number; i++)
 	{
 		while (number % i == 0)
