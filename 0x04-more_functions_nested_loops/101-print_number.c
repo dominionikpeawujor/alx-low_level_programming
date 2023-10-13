@@ -5,8 +5,10 @@
  * print_number - prints an integer
  * @n: The integer to be printed
  *
- * Return: This function does not return a value.
+ * Return:
+ * This function does not return a value.
  */
+
 void print_number(int n)
 {
 	if (n < 0)
