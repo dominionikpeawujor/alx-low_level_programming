@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 
+/**
+ * print_line - prints a line of underscores
+ * @n: The number of underscores to print
+ *
+ * Return: This function does not return a value.
+ */
 void print_line(int n)
 {
 	int i;
@@ -13,4 +19,5 @@ void print_line(int n)
 	{
 		_putchar('_');
 	}
+	_putchar('\n');
 }
