@@ -29,4 +29,3 @@ void puts_half(char *str)
 		write(1, "\n", 1);
 	}
 }
-
