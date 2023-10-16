@@ -1,3 +1,5 @@
+#include <stddef.h>
+
 /**
  * rev_string - Reverses a string in place.
  * @s: A pointer to the string to be reversed.
