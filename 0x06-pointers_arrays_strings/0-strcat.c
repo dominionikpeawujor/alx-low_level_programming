@@ -13,33 +13,29 @@
  */
 char *_strcat(char *dest, const char *src)
 {
-	char *result = dest; // Store the start of the destination string
+	char *result = dest;
 
-	// Find the end of the destination string
 	while (*dest)
 	{
 		dest++;
 	}
-	// Append the source string to the destination string
 	while (*src)
 	{
 		*dest = *src;
 		dest++;
 		src++;
 	}
-
-	// Add a terminating null byte
 	*dest = '\0';
 
-	return result; // Return a pointer to the resulting string
+	return (result);
 }
 
-int main()
+int main(void)
 {
 	char str1[50] = "Hello, ";
 	char str2[] = "World!";
 
 	printf("Concatenated string: %s\n", _strcat(str1, str2));
-	return 0;
+	return (0);
 }
 
