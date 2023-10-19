@@ -26,6 +26,9 @@ char *_strcat(char *dest, const char *src)
 		src++;
 	}
 	*dest = '\0';
-
+	
+	/**
+	 * Returns: A pointer to the resulting string dest.
+	 * */
 	return (result);
 }
