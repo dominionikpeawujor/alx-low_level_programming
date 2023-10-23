@@ -1,5 +1,6 @@
 # include "main.h"
 # include <stdio.h>
+# include <stddef.h>
 
 /**
  * _strpbrk - Searches a string for any of a set of bytes.
