@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "main.h"
 /**
  * struct dog - Structure for information about a dog.
  * @name: Name of the dog (string).
