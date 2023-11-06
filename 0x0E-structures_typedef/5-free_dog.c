@@ -69,22 +69,3 @@ void free_dog(dog_t *d)
 		free(d);
 	}
 }
-
-int main(void)
-{
-	dog_t *my_dog = new_dog("Buddy", 3.5, "John");
-
-	if (my_dog == NULL)
-	{
-		printf("Failed to create a new dog.\n");
-		return 1;
-	}
-
-	printf("Name: %s\n", my_dog->name);
-	printf("Age: %.1f\n", my_dog->age);
-	printf("Owner: %s\n", my_dog->owner);
-
-	free_dog(my_dog);
-
-	return 0;
-}
