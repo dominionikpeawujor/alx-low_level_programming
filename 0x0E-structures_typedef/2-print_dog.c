@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * print_dog - Prints the content of a struct dog.
@@ -13,4 +12,17 @@ void print_dog(struct dog *d)
 		printf("Age: %.6f\n", d->age);
 		printf("Owner: %s\n", (d->owner != NULL) ? d->owner : "(nil)");
 	}
+}
+
+int main(void)
+{
+	struct dog my_dog;
+	
+	my_dog.name = "Buddy";
+	my_dog.age = 3.5;
+	my_dog.owner = "John";
+
+	print_dog(&my_dog);
+
+	return 0;
 }
