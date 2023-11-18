@@ -1,4 +1,0 @@
-while read -r line
-do 
-    echo "$line" | xargs your-other-command #Use xargs to convert input into arguments 
-done < source-file.txt
